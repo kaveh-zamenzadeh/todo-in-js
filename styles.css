@@ -1,0 +1,22 @@
+.list-item {
+  font-family: "roboto";
+  list-style: decimal;
+
+}
+.title-input {
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  outline: none;
+  
+}
+#alert{
+  color: white;
+  background-color: red;
+  display: flex;
+  position: fixed;
+  top: 0;
+  transition: all 0.3s ease;
+  width: 100%;
+  right: -100%;
+}

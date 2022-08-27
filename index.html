@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Todo at class</title>
+  </head>
+  <body style="background-image:url(./hand-painted-watercolor-pastel-sky-background_23-2148902771.webp); ">
+    <h1 style="color:white;">TODO</h1>
+
+    <div id="alert">
+      <p>simple alert for test</p>
+      <button id="colse-alert">X</button>
+    </div>
+
+    <form>
+      <input value="test" id="title" type="text" placeholder="title" />
+      <textarea id="desc" placeholder="do something" rows="10"></textarea>
+      <!-- <button class="a b">submit</button> -->
+      <button  id="submit" type="button" class="btn a b btn-outline-dark">submit</button>
+    </form>
+    <hr />
+    <ul id="main"></ul>
+
+    <noscript>
+      <h1>enable JS in your Browser</h1>
+    </noscript>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
